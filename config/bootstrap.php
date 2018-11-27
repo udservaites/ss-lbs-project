@@ -79,6 +79,8 @@ try {
  */
 //Configure::load('app_local', 'default');
 
+//Plugin Migrations
+Plugin::load('Migrations');
 /*
  * When debug = true the metadata cache should only last
  * for a short time.
